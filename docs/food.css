@@ -156,6 +156,59 @@ tr td{
 
 
 
+@media (max-width: 380px){
+
+  .main {
+    border-radius: 15px;
+    justify-self: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-family: outfit;
+    font-size: 16px;
+    box-shadow: rgba(0, 0, 0, 0.158) 0px 2px 10px 4px;
+   background-color:white;
+   margin: 0;
+   padding: 0;
+  }
+.sub1 img{
+  padding: 0;
+  width: 100%;
+  border-radius: 0;
+}
+.text{
+  margin-top: 0;
+  padding: 35px;
+}
+}
+
+/* typography */
+
+@media (max-width: 380px) {
+
+  .sub2 h1{
+    font-family: "young serif";
+    font-weight: 550;
+    font-size: 2rem;
+    color: hsl(24, 5%, 18%);
+  }
+  .Pre{
+    display: flex;
+    flex-direction: column;
+    padding:  1.9rem;
+    gap: 1rem;
+    color: hsl(30, 10%, 34%);
+    background-color: hsla(332, 51%, 32%, 0.034);
+    border-radius: 15px;
+  
+  }
+  .pre-ul{
+    list-style-position: outside;
+    margin-left: 25px;
+  } 
+}
+
+
 
 
 
